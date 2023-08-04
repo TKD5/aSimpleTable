@@ -1,0 +1,29 @@
+
+body {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 400px;
+    min-width: 100vw;
+    align-items: center;
+}
+table, td{
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background-color: burlywood;
+}
+
+th {
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Tahoma;
+    padding-left: 30px;
+}
